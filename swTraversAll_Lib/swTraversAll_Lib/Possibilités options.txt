@@ -1,0 +1,20 @@
+﻿components :
+	corps
+	propriétés
+	configurations
+	faces
+
+Corps
+	propriétés
+	faces
+
+
+^	-> Tout
+^Name() -> récupère que ce qu'il y a entre paranthèses
+Name() -> récupère tout sauf ce qu'il y a entre paranthèses
+
+^comp(ppt)		->	dans les composants, récupère les propriétés (que les propriétés)
+comp(ppt)		->	dans les composants, récupère tout sauf les propriétés
+comp(ppt,bod)	->	dans les composants, récupère tout sauf les corps et les propriétés
+comp(ppt,^bod)	->	dans les composants, récupère tout sauf les corps et les propriétés
+^comp(bod);bod(ppt)	->	dans les composants, récupère que les corps; récupère tout dans les corps sauf les propriétés

@@ -1,0 +1,8 @@
+920-10 :
+	- 2 dans test
+	- 5 dans copie de test
+total : 12
+
+copie de test :
+	- 2 dans test
+total : 2
